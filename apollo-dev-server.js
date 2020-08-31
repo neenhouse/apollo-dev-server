@@ -17,8 +17,8 @@ program
             uri = u;
         }
     )
-    .option('-p, --port <number>', 'port', (n) => {
-        months = n;
+    .option('-p, --port <number>', 'port', (p) => {
+        port = p;
     })
     .option('-h, --headers <object>', 'headers to include in request', (h) => {
         headers = h;
