@@ -1,0 +1,7 @@
+{
+    "extends": ["config:base"],
+    "includePaths": ["package.json"],
+    "automerge": false,
+    "rebaseStalePrs": true,
+    "semanticCommits": true
+}

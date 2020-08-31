@@ -1,0 +1,38 @@
+{
+    "name": "apollo-dev-server",
+    "version": "0.1.0",
+    "description": "Simple CLI interface for GQL development harness",
+    "main": "index.js",
+    "scripts": {
+        "start": "node apollo-dev-server",
+        "build": "",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/neenhouse/apollo-dev-server.git"
+    },
+    "keywords": [
+        "apollo",
+        "graphql",
+        "playground",
+        "simple"
+    ],
+    "author": "Chris Nienhuis",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/neenhouse/apollo-dev-server/issues"
+    },
+    "homepage": "https://github.com/neenhouse/apollo-dev-server#readme",
+    "dependencies": {
+        "apollo-link": "^1.2.14",
+        "apollo-link-context": "^1.0.20",
+        "apollo-link-http": "^1.5.17",
+        "apollo-server": "^2.17.0",
+        "commander": "^6.1.0",
+        "graphql": "^15.3.0",
+        "node-fetch": "^2.6.0",
+        "prettier": "^2.1.1",
+        "prettier-cli": "^0.1.0"
+    }
+}
