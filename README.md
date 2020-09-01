@@ -1,6 +1,7 @@
 # apollo-dev-server
 
-[![Build Status](https://travis-ci.org/neenhouse/apollo-dev-server.svg?branch=master)](https://travis-ci.org/neenhouse/apollo-dev-server)
+[![Build Status](https://travis-ci.com/neenhouse/apollo-dev-server.svg?branch=master)](https://travis-ci.com/neenhouse/apollo-dev-server)
+
 
 Simple dev cli for remote graphQL web servers with introspection enabled. For development purposes only.
 
